@@ -1132,7 +1132,7 @@
             showLoader();
 
             try {
-                const res = await apiRequest('/api/auth/login', {
+                const res = await apiRequest('/api/gas', {
                     method: 'POST',
                     auth: false,
                     body: { username: u, password: p }
