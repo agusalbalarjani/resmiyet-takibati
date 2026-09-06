@@ -1,0 +1,16 @@
+{
+  "name": "portal-resmiyet-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal Resmiyet Jateng - Render frontend/proxy + Google Apps Script API + Google Sheets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

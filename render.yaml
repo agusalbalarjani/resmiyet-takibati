@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portal-resmiyet
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: GAS_API_URL
+        sync: false
+      - key: GAS_API_KEY
+        sync: false
